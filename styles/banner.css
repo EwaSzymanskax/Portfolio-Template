@@ -235,6 +235,10 @@ body, html{
     body, html{
         width: 100%;
     }
+    .banner-wrapper {
+        width: 100%;
+        height: 100vh;
+    }
 
     .banner-wrapper img.face{
         display: flex;

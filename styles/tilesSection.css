@@ -149,25 +149,24 @@
 
     .tiles-section .second-section{
         width: 100%;
-        margin-top: 1024px;
+        margin-top: 1014px;
     }
 
     .tiles-section .wrapper {
         display: flex;
         width: calc(100% - 200px);
-        /* TODO: tu naprawić*/
         margin: 0 100px 10px 100px;
         justify-content: flex-start;
     }
 
     .tiles-section h5.header-title{
-        margin-top: 35px;
+        margin-top: 135px;
         font-size: 16px;
     }
 
     .tiles-section h3.subtitle{
-        margin-top: 17px;
-        margin-bottom: 35px;
+        margin-top: 20px;
+        margin-bottom: 40px;
         font-size: 43px;
     }
     
@@ -205,6 +204,8 @@
         margin-top: 20px;
         margin-bottom: 64px;
         font-size: 56px;
+        width: 508px;
+        line-height: 64px;
     }
     
     .tiles-section section{
