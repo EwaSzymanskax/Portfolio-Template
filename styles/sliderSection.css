@@ -176,7 +176,7 @@
     .slider-section .slide-wrapper{
         top: 20px;
         height: 325px;
-        }
+    
     }
     
     .slider-section .slide-wrapper img {
@@ -192,6 +192,7 @@
         top: 477px;
         left: 48px; 
     }
+}
 
 @media (min-width: 1920px){
     .slider-section {

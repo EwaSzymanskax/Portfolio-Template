@@ -65,6 +65,8 @@
     border: 24px solid #EF6D58;
     margin-top: 48px;
     margin-left: 28px;
+    width: 80px;
+    height: 80px;
 }
 
 .tiles-section img.table{

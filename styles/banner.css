@@ -55,7 +55,7 @@ body, html{
     display: flex;
     width: 329px;
     height: 318px;
-    margin-top: 1px;
+    margin: 1px auto auto auto;
     align-items: flex-end;
 }
 
