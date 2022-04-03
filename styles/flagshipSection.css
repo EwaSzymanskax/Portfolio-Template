@@ -126,7 +126,7 @@
 
 @media (min-width: 768px){
     .flagship-section{
-        height: 100vh;
+        min-height: 900px;
     }
 
     .flagship-section .column-wrapper{
@@ -165,12 +165,17 @@
 @media (min-width: 1440px){
     .flagship-section{
         height: 100vh;
+        min-height: 1198px;
     }
 
     .flagship-section .column-wrapper img{
-        margin: 80px 171px 0 135px;
+        margin: 190px 171px 0 135px;
         width: 509px;
         height: 531px;
+    }
+
+    .flagship-section .text-container {
+        margin-top: 236px;
     }
 
     .flagship-section h2{
@@ -178,6 +183,10 @@
         line-height: 64px;
         letter-spacing: -1px;
         margin-top: 20px;
+    }
+
+    .flagship-section span{
+        width: 470px;
     }
 
     .flagship-section p{
@@ -191,11 +200,11 @@
     }
 
     .flagship-section .tile:first-of-type{
-        margin: 80px 0 0 135px;
+        margin: 175px 0 0 135px;
     }
     
     .flagship-section .tile:last-of-type{
-        margin: 80px 134px 0 0;
+        margin: 175px 134px 0 0;
     }
 
     .flagship-section .tile{
@@ -204,11 +213,11 @@
 
     .flagship-section .circle-bg-list,
     .flagship-section .circle-bg-briefcase{
-    margin: 22px 30px 0 38px;
-    width: 112px;
-    height: 112px;
-    justify-content: center;
-    align-items: center;
+        margin: 22px 30px 0 38px;
+        width: 112px;
+        height: 112px;
+        justify-content: center;
+        align-items: center;
     }
 
     .flagship-section .text-in-tile{
@@ -217,28 +226,70 @@
 }
 
 @media (min-width: 1920px){
-        .flagship-section .column-wrapper,
-        .flagship-section .tiles-wrapper{
-            max-width: 1400px;
-            margin: 0 auto;
+    .flagship-section .column-wrapper,
+    .flagship-section .tiles-wrapper{
+        max-width: 1400px;
+        margin: 0 auto;
         }
 
-        .flagship-section .column-wrapper img{
-            margin: 150px 171px 0 0px;
-        }
+    .flagship-section .column-wrapper img{
+        margin: 150px 171px 0 0px;
+    }
 
-        .flagship-section h5{
-            margin-top: 70px;
-        }
+    .flagship-section h5{
+        margin-top: 70px;
+    }
         
-        .flagship-section .tile:first-of-type{
-            margin: 150px 0 0 0;
-        }
+    .flagship-section .tile:first-of-type{              
+        margin: 150px 0 0 0;
+    }
         
-        .flagship-section .tile:last-of-type{
-            margin: 150px 0 0 0;
-        }      
-} 
+    .flagship-section .tile:last-of-type{
+        margin: 150px 0 0 0;
+    }  
+        
+    .flagship-section .column-wrapper img {
+        margin: 190px 150px 0 20px;
+        width: 579px;
+        height: 601px;
+    }
+        
+    .flagship-section h5{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .flagship-section h2{
+        font-size: 76px;
+        margin-top: 40px;
+    }
+
+    .flagship-section p{
+        margin-top:36px;
+        font-size: 25px;
+    }
+
+    .flagship-section span{
+        width: 700px;
+        font-size: 25px;
+    }
+
+    .flagship-section button{
+        width: 238px;
+        height: 58px;
+        font-size: 25px;
+        margin-top: 50px;
+    }
+
+    .flagship-section .tile p{
+        font-size: 50px;
+    }
+
+    .flagship-section .tile span{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+}
 
 
 

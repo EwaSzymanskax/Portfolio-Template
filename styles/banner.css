@@ -7,13 +7,13 @@
 body, html{
     width: 100%;
     background-color: #28293E;
+    font-family: 'Epilogue', sans-serif;
 }
     
 .banner-wrapper{
     width: 100%;
     height: 100%;
     padding: 16px 23px 35px 23px;
-    font-family: 'Epilogue', sans-serif;
 }
 
 .banner-wrapper .main-wrapper{
@@ -111,133 +111,12 @@ body, html{
     margin-top: 5%;
 }
 
-@media (min-width: 1440px){
-    body, html{
-        width: 100%;  
-    }
-
-    .banner-wrapper header{
-        width: 100%;
-        height: 80%;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-    }
-
-    .banner-wrapper{
-        width: 100%;
-        height: 100vh;
-        padding: 16px 129px 16px 135px;
-        font-family: 'Epilogue', sans-serif;
-    }
-    
-    .banner-wrapper img.logo{
-        display: flex;
-        width: 170px;
-        height: 48px;
-    }
-
-    .banner-wrapper i.fa-solid {
-        visibility: hidden;
-    }
-
-    .banner-wrapper ul{
-        list-style: none;
-        width: 515px;
-        height: 32px;
-        display: flex;
-        padding-top: 16px;
-        justify-content: space-between;
-    }
-        
-    .banner-wrapper a{
-        display: block;
-        font-size: 16px; 
-        font-weight: 400;
-        line-height: 32px;
-        color: white;
-        font-family: 'Epilogue', sans-serif;
-        text-decoration: none;
-        text-align: center;
-        flex-basis: 25%;  
-    }
-
-    .banner-wrapper img.face{
-        width: 568px;
-        height: 555px;
-        margin-top: 98px;
-        margin-left: 137px;   
-    } 
-
-    .banner-wrapper button.contact{
-        display: flex;
-        width: 138px;
-        height: 48px;          
-        border-radius: 6px;
-        font-size: 14px;
-        font-family: 'Epilogue', sans-serif;
-        text-transform: uppercase;
-        font-weight: bold;
-        background-color:#28293E;
-        color: white;
-        border: 1px solid #28293E;
-        line-height: 48px;
-        margin-left: 160px;
-        margin-top: 7px;
-        justify-content: center;
-    }
-    
-    .banner-wrapper .text-wrapper{
-        display: flex;
-        flex-direction: column;
-        margin-top: 106px;
-    }
-
-    .banner-wrapper .text-wrapper>h1{
-        display: flex;
-        width: 459px;
-        height: 160px;
-        font-size: 72px;
-        line-height: 80px;
-        letter-spacing: -2px;
-        margin-top: 24px;
-    }
-
-    .banner-wrapper .text-wrapper>p{
-        font-size: 16px;
-        width: 470px;
-    }
-
-    .banner-wrapper .text-wrapper>h5{
-        font-size: 16px;
-        line-height: 32px;
-        letter-spacing: 3px;
-        font-weight: 400;
-        text-transform: uppercase;
-        margin-top: 106px;
-    }
-
-    .banner-wrapper .text-wrapper>button.work{
-        display: flex;
-        width: 154px;
-        height: 48px;
-        color:white;
-        border-radius: 6px;
-        font-size: 14px;
-        margin-top: 34px;
-        margin-bottom: 22px;
-        align-items: center;
-        justify-content: center;
-    }
-
-}
-
 @media (min-width: 768px){
     body, html{
         width: 100%;
     }
     .banner-wrapper {
         width: 100%;
-        height: 100vh;
     }
 
     .banner-wrapper img.face{
@@ -292,12 +171,184 @@ body, html{
         line-height: 32px;
         margin-top: 35px;
     }
-@media (min-width: 1920px){
-        .banner-wrapper{
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 16px 0;
-        }
+}
+
+@media (min-width: 1440px){
+    body, html{
+        width: 100%;  
+    }
+
+    .banner-wrapper header{
+        width: 100%;
+        height: 80%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .banner-wrapper{
+        width: 100%;
+        height: 100vh;
+        padding: 16px 129px 16px 135px;
+    }
     
+    .banner-wrapper img.logo{
+        display: flex;
+        width: 170px;
+        height: 48px;
+    }
+
+    .banner-wrapper i.fa-solid {
+        visibility: hidden;
+    }
+
+    .banner-wrapper ul{
+        list-style: none;
+        width: 515px;
+        height: 32px;
+        display: flex;
+        padding-top: 16px;
+        justify-content: space-between;
+    }
+        
+    .banner-wrapper a{
+        display: block;
+        font-size: 16px; 
+        font-weight: 400;
+        line-height: 32px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        flex-basis: 25%;  
+    }
+
+    .banner-wrapper img.face{
+        width: 568px;
+        height: 555px;
+        margin-top: 102px auto auto 137px;  
     } 
+
+    .banner-wrapper button.contact{
+        display: flex;
+        width: 138px;
+        height: 48px;          
+        border-radius: 6px;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color:#28293E;
+        color: white;
+        border: 1px solid #28293E;
+        line-height: 48px;
+        margin-top: 7px auto auto 160px;
+        justify-content: center;
+    }
+    
+    .banner-wrapper .text-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-top: 106px;
+    }
+
+    .banner-wrapper .text-wrapper>h1{
+        display: flex;
+        width: 459px;
+        height: 160px;
+        font-size: 72px;
+        line-height: 80px;
+        letter-spacing: -2px;
+        margin-top: 24px;
+    }
+
+    .banner-wrapper .text-wrapper>p{
+        font-size: 16px;
+        width: 470px;
+    }
+
+    .banner-wrapper .text-wrapper>h5{
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: 3px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-top: 106px;
+    }
+
+    .banner-wrapper .text-wrapper>button.work{
+        display: flex;
+        width: 154px;
+        height: 48px;
+        color:white;
+        border-radius: 6px;
+        font-size: 14px;
+        margin-top: 34px auto 22px auto;
+        align-items: center;
+        justify-content: center;
+    }
+}
+ 
+@media (min-width: 1517px){
+    .banner-wrapper .text-wrapper{
+        margin-top: 30px;
+    }
+}
+    
+@media (min-width: 1920px){
+    .banner-wrapper{
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 16px 0;
+    }
+    .banner-wrapper .main-wrapper {
+        margin-top: 20px;
+    }
+
+    .banner-wrapper img.face{
+        width: 890px;
+        height: 745px;
+        margin: 142px auto auto 0;
+    } 
+
+    .banner-wrapper img.logo {
+        width: 210px;
+        height: 70px;
+    }
+
+    .banner-wrapper .text-wrapper{
+        width: 800px;
+        margin-top: 180px;
+    }
+
+    .banner-wrapper .text-wrapper>h1{
+        font-size: 76px;
+        width: 629px;
+        height: 160px;
+        margin-top: 40px;
+    }
+
+    .banner-wrapper .text-wrapper>h5 {
+        font-size: 28px;
+    }
+
+    .banner-wrapper .text-wrapper>p {
+        font-size: 25px;
+        width: 600px;
+        margin-top: 30px;
+    }
+
+    .banner-wrapper .text-wrapper>button.work {
+        width: 240px;
+        height: 55px;
+        font-size: 24px;
+        margin: 70px auto 22px 0;
+    }
+
+    .banner-wrapper button.contact {
+        width: 158px;
+        height: 68px;
+        font-size: 20px;
+    }
+
+    .banner-wrapper a{
+        font-size: 20px;
+    }
 }

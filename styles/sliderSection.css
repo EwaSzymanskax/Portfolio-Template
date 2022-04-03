@@ -10,25 +10,29 @@
 }
 
 .slider-section .slider{
-    display:flex;
+    display: flex;
     flex-direction: column;
     width: 100vw;
     margin: 48px 0 64px 0;
     align-items: center;
 }
 
-.slider-section .slide-wrapper{
-    position: relative;
+.slider-section .slide-wrapper{ 
+    position: flex;
     width: 100%;
-    height: 470px;
+    height: 100%;
     border: 1px solid #3A3C56;
+    padding: 17px;
 }
 
-.slider-section .slide-wrapper img{
-    position: absolute;
-    width: 100%;
-    top: 0;
-    padding: 17px;
+.slider-section .slide-wrapper img{ 
+    position: flex;
+    width: 340px;
+    height: 438px;
+    top: 0; 
+}
+.slider-section .slide-text{
+    position: relative;
 }
 
 .slider-section h5{
@@ -75,29 +79,42 @@
     text-align: center;
     position: absolute;
     padding: 0 15px 0  15px;
-    top: 288px;
+    bottom: 112px;
     left: 34px;    
 }
 
 .slider-section p{
     font-size: 40px;
-    position: absolute;
+    position: absolute; 
     line-height: 48px;
     font-weight: 800;
     color: #ffffff;
-    top: 349px;
+    bottom: 41px;
     left: 34px;
-    z-index: 1;
 }
 
 @media (min-width: 768px){
     .slider-section{
         height: 100vh;
+        min-height: 950px;
     }
 
+    .slider-section h5{
+        margin: 120px auto auto 100px;
+    }
+
+    .slider-section h3{
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: -1px;
+        margin: 20px auto auto 100px;
+    }
+
+    .slider-section button{
+        margin: 60px auto auto 100px;
+    }
     .slider-section .slider {
         width: 100%;
-        height: 100vh;
         display:flex;
         flex-direction: row;
         margin: 120px 0 64px 0;
@@ -106,35 +123,38 @@
 
     .slider-section .slide-wrapper{
         top: 20px;
-        height: 325px;
     }
 
     .slider-section .slide-wrapper img {
+        width: 100%;
+        height: 100%;
         padding: 7px;
     }
 
     .slider-section span {
-        top: 200px;
-        left: 25px;
+        position: absolute;
+        left: 10px;
+        bottom: 65px;
     }
 
     .slider-section p{
-        top: 250px;
-        font-size: 35px;
-        left: 25px;
+        position: absolute;
+        font-size: 33px;
+        left: 10px;
+        bottom: 10px;
     }
-
 }
 
 @media (min-width: 1440px){
     .slider-section{
-        height: 100vh;
+        min-height: 972px;
     }
 
     .slider-section .slide-wrapper{
         top: 20px;
         position: relative;
         width: 100%;
+        height: 100%;
         border: 1px solid #3A3C56;
     }
 
@@ -146,7 +166,7 @@
     }
 
     .slider-section h5{
-        margin: 60px auto auto 135px;
+        margin: 108px auto auto 135px;
     }
 
     .slider-section .heading{
@@ -171,29 +191,34 @@
         display:flex;
         flex-direction: row;
         width: 100%;
-        height: auto;
-        margin: 40px 0 64px 0;
+        margin: 40px 0 96px 0;
         align-items: center;
     }
 
     .slider-section .slide-wrapper{
         top: 20px;
-        height: 325px;
-    
+        height: 100%;
+        padding: 12px;
+        text-align: center;
     }
     
     .slider-section .slide-wrapper img {
-        padding: 15px;
+        width: 448px;
+        height: 576px;
+        padding: 5px;
     }
 
     .slider-section span{
-        top: 416px;
-        left: 48px;  
+        bottom: 122px;
+        left: 48px;
+        position: absolute; 
     }
 
     .slider-section p{
-        top: 477px;
+        bottom: 67px;
         left: 48px; 
+        position: absolute;
+        font-size: 40px;
     }
 }
 
@@ -201,6 +226,32 @@
     .slider-section {
         max-width: 1400px;
         margin: 0px auto;
+    }
+
+    .slider-section h5{
+        margin: 130px auto auto 135px;
+        font-size: 30px;
+    }
+
+    .slider-section h3{
+        font-size: 76px;
+        margin: 60px auto auto 135px;
+    }
+
+    .slider-section button{
+        font-size: 25px;
+        width: 270px;
+        height: 58px;
+        margin: 200px 80px auto auto;
+    }
+
+    .slider-section .slider{
+        margin: 100px 0 96px 0;
+    }
+
+    .slider-section span{
+        font-size: 22px;
+        height: 48px;
     }
 }
 
