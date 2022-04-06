@@ -94,7 +94,7 @@
 .flagship-section .tiles-wrapper{
     width: 100%;
     height: 513px;
-    margin-bottom: 120px;
+    /* margin-bottom: 120px; */
 }
 
 .flagship-section .tile:first-of-type{
