@@ -79,7 +79,7 @@
 
 .footer span{
     width: 198px;
-    height: 64px;
+    /* height: 64px; */
     text-align: center;
 }
 
@@ -102,11 +102,11 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .footer h4{
-        margin: 90px 60px 340px 40px;
+        margin: 90px 60px 200px 0;
     }
 
     .footer h5{
@@ -123,7 +123,7 @@
     }
 
     .footer .social{
-        margin: 43px auto auto 20px;  
+        margin: 43px 0 auto 20px;  
     }
 
     .footer span{
@@ -182,11 +182,11 @@
     }
 
     .footer p:first-of-type{
-        margin: 20px 68px 52px 0;
+        margin: 43px 68px 52px 0;
     }
     
     .footer p:nth-of-type(2){
-        margin: 20px 135px 52px 0;
+        margin: 43px 135px 52px 0;
     }
 }
 
@@ -196,7 +196,7 @@
         margin: 0 auto;
     }
 
-    footer .container{
+    .footer .container{
         margin: 0 0;
     }
 
@@ -208,10 +208,10 @@
         font-size: 32px;
     }
 
-    footer li>a{
+    .footer li>a{
         display: flex;
         font-weight: 400;
-        font-size: 30px;
+        font-size: 23px;
     }
 
     .footer .circle-bg-facebook,
@@ -232,18 +232,29 @@
         margin: auto auto auto 0;
     }
 
+    .footer .copyright-menu{
+        margin: 50px 0;
+    }
+
     .footer .copyright-container{
-        margin-bottom: 50px;
         height: 32px;
     }
 
     .footer p:first-of-type{
         font-size: 25px;
-        margin: 0 60px auto auto;
+        margin: auto 60px auto auto;
     }
     
     .footer p:nth-of-type(2){
        font-size: 25px;
-       margin: 0 0 auto auto;
+       margin: auto 0 auto auto;
+    }
+
+    .footer .column:first-of-type {
+        margin: 85px 170px auto 0;
+    }
+
+    .footer .column:nth-of-type(2) {
+        margin: 85px 265px auto 0;
     }
 }
